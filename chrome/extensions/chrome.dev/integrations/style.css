@@ -1,0 +1,104 @@
+.clockify-button-active, .clockify-button-inactive:hover {
+  display: inline-flex;
+  font-size: 16px;
+  align-items: center;
+  color: #03A9F4;
+  cursor: pointer;
+}
+
+.clockify-button-inactive {
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  color: #444444;
+  cursor: pointer;
+}
+
+.clockify-button-active-span{
+  margin-left: 5px !important;
+}
+.clockify-button-inactive-span {
+  margin-left: 5px !important;
+}
+.track-time-content {
+  float: right;
+}
+.track-time-content .clockify-input {
+  margin: 0;
+  float: left;
+  width: 170px;
+  height: 30px;
+}
+.track-time-content .clockify-button {
+  margin: 0;
+  height: 30px;
+  float: right;
+  padding: 0px 5px;
+  color: #fff;
+}
+
+.track-time-content .clockify-button-inactive {
+  background: #628db6;
+}
+
+.track-time-content .clockify-button-inactive:hover {
+  background: #4a647d;
+  text-decoration: none;
+}
+
+.track-time-content .clockify-button-active {
+  background: #ea6a6a;
+}
+
+.active .clockify-input {
+  display: none;
+}
+
+.track-time-content .clockify-button-active:hover {
+  background: #bf3838;
+  text-decoration: none;
+}
+.clockify-button span {
+  margin: 0 !important;
+}
+
+.clockify-input {
+  border: 1px solid #c6d2d9;
+  border-radius: 2px;
+  width: 134px;
+  padding-left: 7px;
+  height: 30px;
+}
+
+.clockify-input:focus, .clockify-input:hover {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0,0,0,.05);
+    border:1px solid #03A9F4 !important;
+    background-color: #fff !important;
+}
+
+.clockify-input.clockify-input-default {
+  border-color: #c6d2d9;
+  color: #333;
+  background-color: #fff;
+}
+
+.clockify-input.clockify-input-success {
+  border-color: #CDE9CE !important;
+  color: #285B2A !important;
+  background-color: #DBEFDC !important;
+}
+
+.clockify-input.clockify-input-error {
+  border-color: #FCCAC7 !important;
+  color: #7F231C !important;
+  background-color: #FDD9D7 !important;
+}
+
+.backlog-table-body .user-story-name a.clockify-button-inactive{
+  flex-grow: 0;
+}
+
+.backlog-table-body .user-story-name a.clockify-button-active{
+  flex-grow: 0;
+}

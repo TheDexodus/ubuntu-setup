@@ -1,0 +1,8 @@
+{
+  "redmine.syberry.com": {
+    "name": "Syberry Redmine",
+    "link": "*://*.redmine.syberry.com/*",
+    "script": "redmine.js",
+    "clone": false
+  }
+}
